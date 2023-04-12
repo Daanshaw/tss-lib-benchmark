@@ -7,4 +7,5 @@ The library includes three protocols:
 Key Generation for creating secret shares with no trusted dealer ("keygen").
 Signing for using the secret shares to generate a signature ("signing").
 Dynamic Groups to change the group of participants while keeping the secret ("resharing").
-The implementation was created by rewriting tests and following the instructions from the README.md included in the repository and documentation available for bnb-chain/tss-lib by Binance.
+
+The benchmarks were created by rewriting tests and following the instructions from the README.md included in the repository and documentation available for bnb-chain/tss-lib by Binance.
