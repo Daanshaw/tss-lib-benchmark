@@ -18,3 +18,10 @@ Directory tss-lib-benchmark-master\ecdsa\ecdsa-benchmark contains the benchmark 
 Number of parties and threshold needs to be edited manually in tss-lib-benchmark-master\test\config.go but the text fixture files in test/_fixtures/ must be deleted first.
 
 It is recommended to pre-compute the "safe primes" and Paillier secret beforehand (text fixture files) because this can take some time.
+
+Files added/changed to the original repo
+benchmark_test.go
+main.go
+keygen_protocol.go
+resharing_signing_protocol.go
+test fixtures.
