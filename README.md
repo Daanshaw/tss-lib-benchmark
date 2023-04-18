@@ -16,3 +16,5 @@ How to run it?
 Directory tss-lib-benchmark-master\ecdsa\ecdsa-benchmark contains the benchmark which can be run by using either default benchmarking Go commands or simply by running the functions in benchmark-test.go
 
 Number of parties and threshold needs to be edited manually in tss-lib-benchmark-master\test\config.go but the text fixture files in test/_fixtures/ must be deleted first.
+
+It is recommended to pre-compute the "safe primes" and Paillier secret beforehand (text fixture files) because this can take some time.
