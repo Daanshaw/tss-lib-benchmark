@@ -12,3 +12,5 @@ Dynamic Groups to change the group of participants while keeping the secret ("re
 The benchmarks were created by rewriting tests and following the instructions from the README.md included in the repository and documentation available for bnb-chain/tss-lib (https://github.com/bnb-chain/tss-lib) by Binance.
 
 How to run it?
+
+Directory tss-lib-benchmark-master\tss-lib-benchmark-master\ecdsa\ecdsa-benchmark contains the benchmark which can be run by using either default benchmarking Go commands or simply by running the functions in benchmark-test.go
